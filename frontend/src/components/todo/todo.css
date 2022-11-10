@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+.todo{
+    width: 100%;
+    min-height: 100vh;
+    max-height: max-content;
+}
+header{
+    width: 100%;
+    height: 20vh;
+}
+header .title {
+    width: max-content;
+    height: 20vh;
+    top: 0;
+    left: 5%;
+    position: absolute;
+}
+header .username{
+    width: max-content;
+    height: 20vh;
+    top: 0;
+    right: 5%;
+    position: absolute;
+}
+.username h1{
+    margin-top: 6vh;
+}
+.title h1 {
+    margin-top: 6vh;
+}
+section{
+    width: 100%;
+    min-height: 80vh;
+    max-height: max-content;
+    display: flex;
+   
+}
+section .left{
+    width: 20%;
+    min-height: 80vh;
+    max-height: max-content;
+    background-color: rgb(125, 125, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+section .right{
+    width: 80%;
+    min-height: 80vh;
+    max-height: max-content;
+    background-color: rgb(153, 228, 228);
+}
+.left .top{
+    color: white;
+}
+.left .bottom{
+    margin: 20px;
+}
+.newtodo{
+    height: 10vh;
+}
+.newtodo div{
+    width: max-content;
+    float: right;
+    margin-top: 3vh;
+    margin-right: 20%;
+    display: flex;
+}
+.newtodo div input{
+    margin-right: 10px;
+    display: none;
+}
+.table thead div p{
+    color: white;
+    margin: 0;
+}
+.table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+th{
+    background-color: black;
+    color: white;
+    width: 200px;
+        height: 30px;
+}
+td{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 30px;
+}
+.left .top p{
+    color: black;
+}
+.End{
+    color: red;
+}
+.Start{
+    color: green;
+}
+.Pause{
+    color: rgb(109, 109, 3);
+}
+.Resume{
+    color: rgb(0, 56, 56);
+}
